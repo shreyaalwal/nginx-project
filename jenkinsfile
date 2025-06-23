@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/login-form.git'
+                git 'https://github.com/shreyaalwal/nginx-project.git'
             }
         }
 
