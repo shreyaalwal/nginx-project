@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repository/nginx-config.git'
+                https://github.com/shreyaalwal/nginx-project.git'
             }
         }
         stage('Build Nginx Configuration') {
